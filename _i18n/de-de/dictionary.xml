@@ -818,4 +818,8 @@
   <block id="5313a9ac102424f63dd4d76f5280130e" category="sidebar">Einschränkungen in AWS</block>
   <block id="1fff298355326f8c77bd77059a41c1a2" category="sidebar">Einschränkungen in Azure</block>
   <block id="9a3a0c4b2afbb088e029484d4b34ba8b" category="sidebar">Beschränkungen in Google Cloud</block>
+  <block id="add4650fe6edd8ef1daf8bf53776fb35" category="section-title">9.15.1 P7 (10. März 2025)</block>
+  <block id="dd0e59dbbbb851076ddfea2660d5a696" category="paragraph">Der Patch 9.15.1 P7 ist jetzt für Cloud Volumes ONTAP für alle Cloud-Provider verfügbar. BlueXP fordert Sie auf, Ihre vorhandenen Systeme auf diese Patch-Version zu aktualisieren.</block>
+  <block id="7fa6a95154192207488dcc8bf13f9366" category="inline-link-macro">Zeigen Sie die Liste der im P7-Patch fixierten Fehler an</block>
+  <block id="4e03a43ea47aeb577c42f9ad324a3454" category="paragraph"><block ref="f1b8440cb42692a81435e657f5965214" category="inline-link-macro-rx"></block> (Anmeldung auf der NetApp Support-Website erforderlich).</block>
 </blocks>
