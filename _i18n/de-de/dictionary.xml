@@ -380,7 +380,6 @@
   <block id="2d9da48a9b4a4fd6966adc9c52393b79" category="doc">Bekannte Einschränkungen in Azure</block>
   <block id="4e9780ecc95f5dbfb27e64e3ded5cd85" category="paragraph">Die folgenden bekannten Einschränkungen betreffen Cloud Volumes ONTAP in Microsoft Azure. Achten Sie darauf, auch zu überprüfen<block ref="edcf15b4d9d7d1e018ccca7ce112dd3e" category="inline-link-macro-rx"></block>.</block>
   <block id="c3647f40e3574e0e6f49e20c19135bfa" category="section-title">Beschränkungen bei der Verwendung von Azure VM-Erweiterungen</block>
-  <block id="9d167ed7d52d81da8d83590ec3b5a4af" category="paragraph">Cloud Volumes ONTAP unterstützt in einer Implementierung keine Erweiterungen für Azure Virtual Machine (VM) und VM-Applikationen. Die Verwendung von Cloud Volumes ONTAP in Azure mit VM-Erweiterungen führt zu Verzögerungen bei Operationen, und NetApp empfiehlt, diese zu vermeiden.</block>
   <block id="0ef515bdf91048074b68adb0d7ce587e" category="paragraph">Cloud Volumes ONTAP verwendet in einigen VM-Typen den lokalen NVMe Storage als „_Flash Cache_“. Beachten Sie diese Einschränkung:</block>
   <block id="7616922b4f9b85f327fb9c04518fc90f" category="list-text">Das Aufwärmen des Caches nach einem Neustart wird nicht unterstützt.</block>
   <block id="d91c9372e1fdf74d651217f1a36e518b" category="inline-link">Zeigen Sie die Liste der unterstützten Azure Regionen an</block>
@@ -714,8 +713,6 @@
   <block id="fbd5af992908b9931b0ae311f285c7d5" category="summary">Cloud Volumes ONTAP 9.15.1 enthält eine neue Verbesserung.</block>
   <block id="83a60efee029f00eebfd929bdfd93b02" category="doc">Neuerungen bei Cloud Volumes ONTAP 9.15.1</block>
   <block id="b4c1aa9082f0d8e4483e610ea5ab6d33" category="paragraph">Cloud Volumes ONTAP 9.15.1 enthält neue Verbesserungen.</block>
-  <block id="9889b7a9df56580016f59ccd942fb1d1" category="inline-link">Versionshinweise zu BlueXP</block>
-  <block id="4bdb15bfe1bad472d818dc31e8f53185" category="paragraph">Zusätzliche Funktionen und Erweiterungen sind ebenfalls in den neuesten Versionen von BlueXP verfügbar. <block ref="c7887e85c6060ae2594d873a0f2ae025" category="inline-link-rx"></block>Weitere Informationen finden Sie im.</block>
   <block id="ae1d06c72e1d3684dc2b0784b447f8bb" category="section-title">9.15.1 P6 (20. Januar 2025)</block>
   <block id="e685687a0700868820f260439fea454f" category="paragraph">Der Patch 9.15.1 P6 ist jetzt für Cloud Volumes ONTAP für alle Cloud-Provider verfügbar. BlueXP fordert Sie auf, Ihre vorhandenen Systeme auf diese Patch-Version zu aktualisieren.</block>
   <block id="4d90d21642c7222312363da000d7409f" category="inline-link-macro">Zeigen Sie die Liste der im P6-Patch fixierten Fehler an</block>
@@ -847,6 +844,15 @@
   <block id="be999fe0b627760ef402ad7df5008fe1" category="paragraph"><block ref="b0bc3ebbc9e610d1dac4e57f16939acc" category="inline-link-macro-rx"></block> (Anmeldung auf der NetApp Support-Site erforderlich).</block>
   <block id="a4b4460d6fb6c25a6520fe60eba7e3da" category="section-title">9.15.1 P11 (04. Juli 2025)</block>
   <block id="c50aad5510d202b1b6b9d3aaa902a6db" category="section-title">9.15.1 P1 (03. September 2024)</block>
-  <block id="7154c540487dc9b8aa5fe16a2bb93c7e" category="paragraph">Der Patch 9.15.1 P14 ist jetzt für Cloud Volumes ONTAP für alle Cloud-Anbieter verfügbar. Die NetApp Console fordert Sie auf, Ihre vorhandenen Systeme auf diese Patch-Version zu aktualisieren.</block>
-  <block id="7968735d85ca87c9b89e7bcbaa2b7c54" category="paragraph">Der Patch 9.15.1 P13 ist jetzt für Cloud Volumes ONTAP für alle Cloud-Anbieter verfügbar. Die NetApp Console fordert Sie auf, Ihre vorhandenen Systeme auf diese Patch-Version zu aktualisieren.</block>
+  <block id="fe70a2c1423d8dc6d93d9ed56139eace" category="inline-link">Können Azure VM Management Extensions in Cloud Volume ONTAP installiert werden?</block>
+  <block id="57ffa4e4634e4030ce4314e8507b6ac1" category="paragraph">Cloud Volumes ONTAP unterstützt keine Azure-VM-Erweiterungen (Virtual Machine), da diese die Verwaltungsvorgänge in der NetApp Console beeinträchtigen. Während der Bereitstellung verhindert die Konsole die Installation jeglicher Erweiterungen auf Ihren VMs. Wenn auf Ihren vorhandenen Cloud Volumes ONTAP VMs bereits Erweiterungen installiert sind, wenden Sie sich an den Microsoft Azure-Support, um sie zu entfernen. Anleitungen finden Sie im Knowledge Base-Artikel (KB).<block ref="91819095f9753eb451eb4e908a53f8c0" category="inline-link-rx"></block></block>
+  <block id="cdea228f1fb9b0b9d76a0a25fd7fbfba" category="paragraph">Ab dem 14. Juli 2025 sendet NetApp E-Mails und benachrichtigt Sie in der Konsole, wenn VM-Erweiterungen auf Ihren Cloud Volumes ONTAP VMs erkannt werden.</block>
+  <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="inline-link">Cloud Volumes ONTAP</block>
+  <block id="5d1eb95c23458b15c13fe46f408728aa" category="paragraph">In der neuesten Version der NetApp Console werden außerdem zusätzliche Funktionen und Verbesserungen eingeführt. Weitere Informationen finden Sie unter „Neuigkeiten in<block ref="56e5ce972271b4b4616ecc1db39a9778" category="inline-link-rx"></block> in der Konsole verwaltet.</block>
+  <block id="429495ba2c4dc5c484de64b1db5fd89f" category="section-title">9.15.1 P15 (24. Oktober 2025)</block>
+  <block id="699fe82e22438f1032454ac32aa4e8d2" category="paragraph">Der Patch 9.15.1 P15 ist jetzt für Cloud Volumes ONTAP für alle Cloud-Anbieter verfügbar. Die Konsole fordert Sie auf, Ihre vorhandenen Systeme auf diese Patch-Version zu aktualisieren.</block>
+  <block id="33574a05549f99fccdd87d54c230615f" category="inline-link-macro">Sehen Sie sich die Liste der im P15-Patch behobenen Fehler an</block>
+  <block id="1b91cb1db5fb75c00134cda2e4b2b2cd" category="paragraph"><block ref="3440e8b5c6746799d183afaf401c4952" category="inline-link-macro-rx"></block>(Anmeldung auf der NetApp Support-Site erforderlich).</block>
+  <block id="785bea81f47185bf9b618826ccf1d1b6" category="paragraph">Der Patch 9.15.1 P14 ist jetzt für Cloud Volumes ONTAP für alle Cloud-Anbieter verfügbar. Die Konsole fordert Sie auf, Ihre vorhandenen Systeme auf diese Patch-Version zu aktualisieren.</block>
+  <block id="d86b9f59eb8cb7a8534fb5372625567a" category="paragraph">Der Patch 9.15.1 P13 ist jetzt für Cloud Volumes ONTAP für alle Cloud-Anbieter verfügbar. Die Konsole fordert Sie auf, Ihre vorhandenen Systeme auf diese Patch-Version zu aktualisieren.</block>
 </blocks>
