@@ -20,6 +20,14 @@ In der neuesten Version der NetApp Console werden außerdem zusätzliche Funktio
 
 
 
+== 9.15.1 P16 (22. Dezember 2025)
+
+Der Patch 9.15.1 P16 ist jetzt für Cloud Volumes ONTAP für alle Cloud-Anbieter verfügbar. Die Konsole fordert Sie auf, Ihre vorhandenen Systeme auf diese Patch-Version zu aktualisieren.
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.15.1P16["Sehen Sie sich die Liste der im P16-Patch behobenen Fehler an."^](Anmeldung auf der NetApp Support-Site erforderlich).
+
+
+
 == 9.15.1 P15 (24. Oktober 2025)
 
 Der Patch 9.15.1 P15 ist jetzt für Cloud Volumes ONTAP für alle Cloud-Anbieter verfügbar. Die Konsole fordert Sie auf, Ihre vorhandenen Systeme auf diese Patch-Version zu aktualisieren.
